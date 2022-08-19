@@ -1,3 +1,4 @@
+import NovaServerMetrics from './components/Card'
 Nova.booting((Vue, router) => {
-    Vue.component('nova-server-metrics', require('./components/Card'));
+    Vue.component('nova-server-metrics', NovaServerMetrics);
 })

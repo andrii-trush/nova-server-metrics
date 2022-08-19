@@ -1,7 +1,6 @@
 <template>
     <card class="h-auto p-4">
         <h2 class="text-90 font-light mb-4">Server Metrics</h2>
-
             <loader v-if="initialLoading" class="mb-4"></loader>
 
             <table v-if="!initialLoading" class="table w-full">
@@ -24,7 +23,6 @@
                     </tr>
                 </tbody>
             </table>
-        </div>
     </card>
 </template>
 
